@@ -22,7 +22,7 @@ async function main (params) {
   // create a Logger
   const logger = Core.Logger('main', { level: params.LOG_LEVEL || 'info' });
   // replace this with the api you want to access
-  const SLACK_WEBHOOK = 'https://hooks.slack.com/services/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';
+  const SLACK_WEBHOOK = 'webhook';
 
   try {
      /* handle the challenge */
